@@ -1,0 +1,110 @@
+:root {
+  --branding-color: #6c63ff;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --secondary-color: #f9f7fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hero {
+  background-image: url("../images/odessa.jpeg");
+}
+
+h1 {
+  color: yellow;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h2 {
+  color: lightseagreen;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+  color: white;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 68px;
+}
+
+h2 {
+  font-size: 54px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+p {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.hero {
+  margin: 160px auto;
+  padding: 60px 20px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  color: mediumspringgreen;
+  font-family: var(--heading-font-family);
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 40px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.content-container {
+  background-color: aquamarine;
+  margin: 60px auto;
+  padding: 60px 20px;
+}
+
+.content-container h1 {
+  font-size: 64px;
+  line-height: 80 px;
+}
+
+.content-container h2 {
+  font-size: 26px;
+  font-family: var(--default-font-family);
+}
+
+.content {
+  margin: 30 px;
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+
+.img-fluid {
+  padding-left: 120px;
+  margin: 30px auto;
+  max-width: 100%;
+  height: auto;
+}
