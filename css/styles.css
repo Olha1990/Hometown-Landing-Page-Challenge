@@ -45,6 +45,9 @@ h3 {
   font-size: 48px;
 }
 
+h6 {
+  text-align: center;
+}
 p {
   padding: 20px;
   border-radius: 4px;
@@ -104,6 +107,13 @@ p {
 
 .img-fluid {
   padding-left: 120px;
+  margin: 30px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-flex {
+  padding-left: 40px;
   margin: 30px auto;
   max-width: 100%;
   height: auto;
