@@ -48,7 +48,9 @@ h3 {
 h6 {
   text-align: center;
 }
+
 p {
+  font-family: var(--default-font-family);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
@@ -69,6 +71,21 @@ p {
 
 .navigation-links a {
   color: mediumspringgreen;
+  font-family: var(--heading-font-family);
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 40px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.attraction-link {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  color: forestgreen;
   font-family: var(--heading-font-family);
   font-size: 24px;
   font-weight: bold;
@@ -114,7 +131,7 @@ p {
 
 .img-flex {
   padding-left: 40px;
-  margin: 30px auto;
+  margin: 10px auto;
   max-width: 100%;
   height: auto;
 }
